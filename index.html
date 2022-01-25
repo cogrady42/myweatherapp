@@ -31,18 +31,23 @@
   <body>
     <div class="container-fluid">
       <div class="card">
-
         <div class="row">
-          <div class="col date" id="current-time">
-            tuesday 3:21pm
-          </div>
+          <div class="col date" id="current-time">tuesday 3:21pm</div>
           <div class="col">
-              <form class="changeCity" id="change-city-form">
-                <input type="search" placeholder="change city" autocomplete="off" id="city-input" class="changeCity"/>
-                <input type="submit" value="search" class="searchButton" />
-                <button class="searchButton" id="current-location-search">location</button>
-              </form>
-        </div>
+            <form class="changeCity" id="change-city-form">
+              <input
+                type="search"
+                placeholder="change city"
+                autocomplete="off"
+                id="city-input"
+                class="changeCity"
+              />
+              <input type="submit" value="search" class="searchButton" />
+              <button class="searchButton" id="current-location-search">
+                location
+              </button>
+            </form>
+          </div>
         </div>
 
         <h1 id="city">Toronto</h1>
@@ -51,18 +56,18 @@
           <div class="col">
             <div class="details">
               humidity: <span id="humidity">76</span>%
-               <br />
-             wind:  <span id="wind">22</span>km/h 
+              <br />
+              wind: <span id="wind">22</span>km/h
             </div>
           </div>
           <div class="col">
-            <div class="temperature" >
+            <div class="temperature">
               <span id="current-temperature"> 4 </span>
               <a href="" class="degrees" id="degrees-celsius">°C</a>
             </div>
           </div>
           <div class="col">
-            <div class="feelslike" >
+            <div class="feelslike">
               feels like
               <div class="temperature2" id="currently-feels-like">-8°</div>
             </div>
@@ -70,8 +75,18 @@
         </div>
 
         <h2 id="description">light snow</h2>
+      </div>
 
+      <div class="source">
+        <a
+          href="https://github.com/cogrady42/myweatherapp"
+          target="blank"
+          class="sourceLink"
+          >open-source code</a
+        >, by Cecilia O'Grady
+      </div>
     </div>
 
-<script src="src/index.js"></script>  </body>
+    <script src="src/index.js"></script>
+  </body>
 </html>
