@@ -1,0 +1,101 @@
+body {
+  color: #1d4d4f;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.card {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border-style: solid;
+  border-color: #dfe9f3;
+  margin: 20px;
+  max-width: 700px;
+  padding: 10px;
+}
+
+.date {
+  font-size: 15px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.changeCity {
+  border-color: #dfe9f3;
+  border-width: 1px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.searchButton {
+  background: white;
+  border-color: #dfe9f3;
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  color: #1d4d4f;
+  font-size: 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.searchButton:hover {
+  background: whitesmoke;
+}
+
+h1 {
+  font-size: 23px;
+  padding-top: 40px;
+}
+
+.details {
+  font-size: 12px;
+}
+
+.temperature {
+  color: #357376;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.degrees {
+  font-size: 30px;
+  vertical-align: 50px;
+  margin-left: -25px;
+}
+
+a {
+  color: #357376;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  font-size: 30px;
+  vertical-align: 50px;
+  margin-left: -25px;
+}
+
+a:hover {
+  color: #204749;
+}
+
+.feelslike {
+  font-size: 12px;
+}
+
+.temperature2 {
+  color: #357376;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.days {
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+.icons {
+  color: #6ba8a9;
+  font-size: 47px;
+}
