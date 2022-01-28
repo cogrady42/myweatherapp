@@ -1,4 +1,4 @@
-function formattedDate(date) {
+function formatDate(date) {
   let days = [
     "sunday",
     "monday",
@@ -24,7 +24,7 @@ function formattedDate(date) {
 let currentTimeAndDate = document.querySelector("#current-time");
 let currentTime = new Date();
 
-currentTimeAndDate.innerHTML = formattedDate(currentTime);
+currentTimeAndDate.innerHTML = formatDate(currentTime);
 
 function searchCity(city) {
   let apiEndPoint = "https://api.openweathermap.org/data/2.5/weather";

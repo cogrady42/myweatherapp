@@ -4,14 +4,20 @@ body {
   text-align: center;
 }
 
-.card {
+.weather-app {
   background: linear-gradient(to top, #dfe9f3 0%, white 100%);
   border-style: solid;
-  border-color: #dfe9f3;
+  border-radius: 5px;
+  border: #dfe9f3;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
-  margin: 20px;
-  max-width: 700px;
+  margin: 20px auto;
+  max-width: 650px;
   padding: 10px;
+}
+
+.weather-app-wrapper {
+  margin: 20px auto;
+  max-width: 650px;
 }
 
 .date {
@@ -20,14 +26,14 @@ body {
   text-align: left;
 }
 
-.changeCity {
+.change-city {
   border-color: #dfe9f3;
   border-width: 1px;
   font-size: 15px;
   text-align: right;
 }
 
-.searchButton {
+.search-button {
   background: white;
   border-color: #dfe9f3;
   border-width: 1px;
@@ -38,7 +44,7 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.searchButton:hover {
+.search-button:hover {
   background: whitesmoke;
 }
 
@@ -58,10 +64,9 @@ h1 {
   line-height: 1;
 }
 
-.degrees {
+.temperature a {
   font-size: 20px;
   vertical-align: 57px;
-  margin-left: -25px;
 }
 
 a {
@@ -74,7 +79,7 @@ a:hover {
   color: #204749;
 }
 
-.feelslike {
+.feels-like {
   font-size: 12px;
 }
 
@@ -100,11 +105,9 @@ h2 {
 
 .source {
   font-size: small;
-  color: #357376;
-  padding-left: 25px;
   text-align: left;
 }
 
-.sourceLink {
+.source-link {
   text-decoration: underline;
 }
